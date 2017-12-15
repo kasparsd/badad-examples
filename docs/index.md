@@ -3,14 +3,14 @@ title: Bad Ad Examples
 noindex: true
 ---
 
-Here is a list of pages that contain various types of Javascript redirects:
+This is a list of pages that contain various types of Javascript redirects. There is also [a text file with all the URLs](urls.txt).
 
 <dl>
 {% for page in site.html_pages %}
 	{% unless page.noindex %}
 		<dt><a href="{{ page.url | relative_url }}">{{ page.title }}</a></dt>
 		<dd>
-			<p>{{ page.description | markdownify }}</p>
+			{{ page.description | markdownify }}
 		</dd>
 	{% endunless %}
 {% endfor %}
