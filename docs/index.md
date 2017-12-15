@@ -10,7 +10,7 @@ Here is a list of pages that contain various types of Javascript redirects:
 	{% unless page.noindex %}
 		<dt><a href="{{ page.url | relative_url }}">{{ page.title }}</a></dt>
 		<dd>
-			<p><code>{{ page.url | absolute_url }}</code></p>
+			<p>{{ page.description | markdownify }}</p>
 		</dd>
 	{% endunless %}
 {% endfor %}

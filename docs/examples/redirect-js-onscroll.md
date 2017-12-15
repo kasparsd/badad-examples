@@ -1,5 +1,6 @@
 ---
 title: On Scroll Redirect
+description: Redirect as soon as the user scrolls the page.
 ---
 
 <script>

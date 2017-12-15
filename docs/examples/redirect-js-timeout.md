@@ -1,5 +1,6 @@
 ---
 title: Timeout Redirect
+description: Redirect 2 seconds after the page load using `document.location`.
 ---
 
 <script>

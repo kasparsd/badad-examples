@@ -1,5 +1,6 @@
 ---
 title: Basic Redirect
+description: Redirect immediately after the page load using `document.location`.
 ---
 
 <script>
