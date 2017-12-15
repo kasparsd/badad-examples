@@ -1,0 +1,9 @@
+name: Bad Ad Examples
+
+github: https://github.com/kasparsd/badad-examples
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
