@@ -1,4 +1,10 @@
 body { font:16px/1.5 sans-serif; margin:0; padding:0; }
+pre { background: #eee; padding:0.5em; overflow:auto; }
+code { word-break: break-all; font-size:inherit; font-family: "Consolas", monospace; }
+iframe { border:1px solid #ddd; display:block; width:100%; }
+dt { margin-bottom:1em; }
+dd { margin-bottom:1em; }
+p { margin:0 0 1em 0; }
 
 #header { padding:1em 0; }
 #header h1 { font-size:1em; margin:0; display:inline-block; }
@@ -8,7 +14,7 @@ body { font:16px/1.5 sans-serif; margin:0; padding:0; }
 #header nav li { display:inline-block; }
 #header nav a { display:block; padding:0.5em 1em; }
 
-#soul { max-width:40em; margin:0 auto; }
+#soul { max-width:40em; margin:0 auto; padding:0 1em; }
 #footer { font-size:0.9em; margin-top:2em; }
 
 .meta { font-size:0.9em; padding:1em 0; }
