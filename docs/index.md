@@ -1,11 +1,11 @@
 ---
 title: Bad Ad Examples
-index: true
+noindex: true
 ---
 
 <ul>
-{% for page in site.pages %}
-	{% unless page.index or page.noindex %}
+{% for page in site.html_pages %}
+	{% unless page.noindex %}
 		<li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 	{% endunless %}
 {% endfor %}
