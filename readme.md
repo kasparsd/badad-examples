@@ -2,6 +2,8 @@
 
 Collection of HTML pages with various types of Javascript redirects and autoplay video and audio.
 
+Visit https://kasparsd.github.io/badad-examples/
+
 
 ## Contribute
 
