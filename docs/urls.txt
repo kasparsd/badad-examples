@@ -1,0 +1,7 @@
+---
+title: A list of URLs
+layout: null
+noindex: true
+---
+{% for page in site.html_pages %}{% unless page.noindex %}{{ page.url | absolute_url }}
+{% endunless %}{% endfor %}
