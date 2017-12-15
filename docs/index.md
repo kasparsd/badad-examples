@@ -5,6 +5,6 @@ index: true
 
 <ul>
 {% for page in site.pages offset:1 %}
-	<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	<li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
