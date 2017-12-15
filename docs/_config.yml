@@ -2,6 +2,8 @@ name: Bad Ad Examples
 
 github: https://github.com/kasparsd/badad-examples
 
+markdown_ext: "md"
+
 defaults:
   - scope:
       path: ""
